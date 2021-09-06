@@ -40,7 +40,7 @@ namespace SalesWebMVC.Controllers
             return View(result);
         }
 
-        public async Task<IActionResult> GroupngSearch(DateTime? minDate, DateTime? maxDate)
+        public async Task<IActionResult> GroupingSearch(DateTime? minDate, DateTime? maxDate)
         {
             if (!minDate.HasValue)
             {
