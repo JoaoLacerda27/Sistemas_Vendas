@@ -35,3 +35,27 @@ body {
         display: none;
     }
 }
+
+#outer {
+    position: relative;
+    width: 100%;
+}
+
+#inner {
+    left: 50%;
+    position: absolute;
+    transform: translateX(-50%);
+}
+
+.container img {
+    max-width: 200px;
+    max-height: 150px;
+    width: auto;
+    height: auto;
+    vertical-align: middle;
+}
+
+.row {
+    margin-top: 15px;
+    margin-bottom: 15px;
+}

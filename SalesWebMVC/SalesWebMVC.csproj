@@ -5,6 +5,15 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <Content Remove="wwwroot\images\negocios-e-financas.png" />
+    <Content Remove="wwwroot\images\negocios-e-financas.svg" />
+    <Content Remove="wwwroot\images\perfil-pessoal.png" />
+    <Content Remove="wwwroot\images\perfil-pessoal.svg" />
+    <Content Remove="wwwroot\images\venda-rapida.png" />
+    <Content Remove="wwwroot\images\venda-rapida.svg" />
+  </ItemGroup>
+
+  <ItemGroup>
     <PackageReference Include="Microsoft.AspNetCore" Version="2.1.7" />
     <PackageReference Include="Microsoft.AspNetCore.App" />
     <PackageReference Include="Microsoft.AspNetCore.Mvc" Version="2.1.3" />
